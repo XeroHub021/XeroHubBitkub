@@ -1,5 +1,5 @@
 local key = _G.Key
-local check = "https://raw.githubusercontent.com/XeroHub021/XeroHub/main/check.php?token=GHSAT0AAAAAACBZ5CFQ5GC2HA2CLREEWRB6ZCGTQHA?key=" .. key
+local check = "https://raw.githubusercontent.com/XeroHub021/XeroHubBitkub/main/Beta/check.php?key=" .. key
 if game:HttpGet(check) == "Whitelisted" then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/XeroHub021/XeroHub/main/script.lua?token=GHSAT0AAAAAACBZ5CFQGNDLTMLGQBBBI5GCZCGTUOQ"))()
 else
