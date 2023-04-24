@@ -1,7 +1,7 @@
 local key = _G.Key
-local check = "https://raw.githubusercontent.com/XeroHub021/XeroHubBitkub/main/Beta/check.php?key=" .. key
+local check = "checkhere?key=" .. key
 if game:HttpGet(check) == "Whitelisted" then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/XeroHub021/XeroHubBitkub/main/Beta/script.lua"))()
+loadstring(game:HttpGet("scripthere"))()
 else
-game.Players.LocalPlayer:Kick("คีย์ผิดคับน้อง")
+game.Players.LocalPlayer:Kick("Invalid Key! Please Rejoin And Try Again.")
 end
