@@ -1,4 +1,5 @@
 local key = _G.Key
+local HWID = _G.HWID
 local check = "https://raw.githubusercontent.com/XeroHub021/XeroHubBitkub/main/Beta/check.php?key=" .. key
 if game:HttpGet(check) == "WHITELIST !" then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/XeroHub021/XeroHubBitkub/main/Beta/script.lua"))()
