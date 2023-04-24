@@ -29,13 +29,6 @@ local Window = Rayfield:CreateWindow({
 local Tab = Window:CreateTab("MAIN")
 local Section = Tab:CreateSection("Script GAME")
 
-local Button = Tab:CreateButton({
-   Name = "กำลังทำ",
-   Callback = function()
-   
-   end,
-})
-
 
 -- ESP
 
