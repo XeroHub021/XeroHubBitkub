@@ -4,7 +4,7 @@ _G.Key = "KEY-A"
 HWID = "HELLO1"
  
 local Server =  syn.request({
-    Url = "http://127.0.0.1/WhitelistTest/Server.php?Key=".. _G.Key .."&HWID="..HWID,
+    Url = "https://raw.githubusercontent.com/XeroHub021/XeroHubBitkub/main/Beta/check.php?Key=".. _G.Key .."&HWID="..HWID,
     Method = "GET"
 }).Body
  
