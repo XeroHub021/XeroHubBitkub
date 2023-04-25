@@ -9,7 +9,7 @@ local Server =  syn.request({
 }).Body
  
 if Server == "WHITELIST !" then
-    print("SCRIPT")
+    https://raw.githubusercontent.com/XeroHub021/XeroHubBitkub/main/Beta/script.lua
 elseif Server == "Invaid HWID !" then
     game.Players.LocalPlayer:kick("Invaid HWID")
 elseif Server == "Invaid Key" then
